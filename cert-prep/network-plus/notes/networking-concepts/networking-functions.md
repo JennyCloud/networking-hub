@@ -1,133 +1,161 @@
 # Networking Functions
 
-Networking functions describe what a network is responsible for doing in order to allow devices to communicate reliably and securely.
+Networking exists to move data from one device to another reliably, efficiently, and securely.  
 
 ---
 
-## 1. Device Identification (Addressing)
+## 1. Encapsulation
 
-Every device on a network must have a unique identifier.
+Encapsulation is the process of wrapping data with protocol information as it moves down the OSI layers.
 
-- **MAC Address** → Physical address (Layer 2)
-- **IP Address** → Logical address (Layer 3)
+Example flow:
+Application Data  
+→ TCP/UDP Header added (Layer 4)  
+→ IP Header added (Layer 3)  
+→ Ethernet Header added (Layer 2)
 
-Without addressing, devices would not know where to send data.
+Each layer adds its own header.  
+At the destination, the process is reversed (decapsulation).
+
+Why it matters:
+Encapsulation allows different layers to perform specialized tasks while working together.
 
 ---
 
-## 2. Encapsulation
+## 2. Addressing
 
-Encapsulation is the process of wrapping data with protocol information as it moves down the OSI model layers.
+Networks need addressing so devices know where to send data.
 
-Example:
-Application Data → TCP Segment → IP Packet → Ethernet Frame
+Types of addresses:
 
-Each layer adds its own header information.
+- MAC Address (Layer 2) → Physical hardware address
+- IP Address (Layer 3) → Logical network address
+- Port Number (Layer 4) → Identifies specific application/service
+
+Without addressing, data would have no destination.
+
+---
+
+## 3. Routing and Forwarding
+
+Routing determines the best path for data to travel between networks.
+
+Routers:
+- Examine the destination IP address
+- Check their routing table
+- Forward the packet to the next hop
+
+Forwarding is the actual movement of the packet based on routing decisions.
+
+---
+
+## 4. Fragmentation
+
+If a packet is too large for the network medium (MTU limit), it may be broken into smaller pieces.
+
+MTU (Maximum Transmission Unit):
+- Ethernet default MTU is 1500 bytes
+
+Fragments are reassembled at the destination.
+
+---
+
+## 5. Error Detection
+
+Networks must detect corruption during transmission.
+
+Layer 2 uses:
+- Frame Check Sequence (FCS)
+
+Layer 4 (TCP) uses:
+- Checksums
+- Acknowledgments (ACKs)
+
+TCP can retransmit lost or damaged data.
+UDP does not guarantee delivery.
+
+---
+
+## 6. Flow Control
+
+Flow control prevents a fast sender from overwhelming a slow receiver.
+
+TCP uses:
+- Window size
+- Acknowledgments
+
+This ensures stable communication.
+
+---
+
+## 7. Time To Live (TTL)
+
+TTL is a field inside the IP header.
 
 Purpose:
-- Identifies source and destination
-- Tracks sessions
-- Ensures proper delivery
+To prevent packets from traveling endlessly in routing loops.
+
+How it works:
+- Each router that forwards a packet reduces the TTL value by 1.
+- When TTL reaches 0, the packet is dropped.
+- The router sends back an ICMP "Time Exceeded" message.
+
+Example:
+If a packet starts with TTL = 64,
+and passes through 5 routers,
+TTL becomes 59.
+
+If a routing loop exists,
+TTL will eventually hit 0,
+and the packet will be discarded.
+
+Why TTL matters:
+- Prevents infinite network loops
+- Helps tools like `tracert` / `traceroute` work
+
+Traceroute works by sending packets with increasing TTL values to discover each hop along the path.
 
 ---
 
-## 3. Segmentation and Reassembly
+## 8. Name Resolution
 
-Large pieces of data are broken into smaller segments for transmission.
+Humans use domain names.
+Networks use IP addresses.
 
-- TCP divides data into segments
-- Receiver reassembles segments in the correct order
-
-This improves reliability and efficiency.
-
----
-
-## 4. Routing and Switching
-
-### Switching (Layer 2)
-- Moves data within the same local network (LAN)
-- Uses MAC addresses
-
-### Routing (Layer 3)
-- Moves data between different networks
-- Uses IP addresses
-
-Routers determine the best path for data to reach its destination.
-
----
-
-## 5. Name Resolution
-
-Humans use names.
-Computers use IP addresses.
-
-**DNS (Domain Name System)** translates domain names into IP addresses.
+DNS (Domain Name System):
+- Translates domain names to IP addresses
 
 Example:
 google.com → 142.250.x.x
 
 ---
 
-## 6. DHCP (Dynamic Host Configuration Protocol)
+## 9. Network Address Translation (NAT)
 
-Automatically assigns:
-- IP address
-- Subnet mask
-- Default gateway
-- DNS server
+NAT allows private IP addresses to access the internet using a public IP address.
 
-Prevents manual configuration errors.
+Common in home routers and firewalls.
 
----
-
-## 7. Network Security
-
-Networks must protect data and control access.
-
-Common functions:
-- Firewalls (traffic filtering)
-- Access Control Lists (ACLs)
-- VPNs (encrypted tunnels)
-- Authentication systems
+Purpose:
+- Conserves public IP addresses
+- Adds a layer of basic security
 
 ---
 
-## 8. Monitoring and Management
+# Summary
 
-Networks must be observed and maintained.
+Core Networking Functions:
 
-Examples:
-- SNMP (Simple Network Management Protocol)
-- Logging and alerting
-- Configuration backups
+- Encapsulation
+- Addressing
+- Routing
+- Fragmentation
+- Error Detection
+- Flow Control
+- TTL loop prevention
+- Name Resolution
+- NAT
 
-Monitoring tools detect failures, performance issues, and security threats.
-
----
-
-## 9. Fault Tolerance and Redundancy
-
-Networks are designed to avoid single points of failure.
-
-Examples:
-- Redundant links
-- Failover routers
-- Load balancing
-
-Goal: Maintain uptime and availability.
-
----
-
-## Summary
-
-Networking functions allow devices to:
-
-- Identify each other
-- Send and receive data
-- Resolve names
-- Route traffic correctly
-- Maintain security
-- Monitor health
-- Recover from failures
-
-A network is not just cables and devices — it is a system that manages communication from end to end.
+Networking is rule-based data movement.
+Packets follow logic, not intention.
+When something breaks, there is always a reason.
