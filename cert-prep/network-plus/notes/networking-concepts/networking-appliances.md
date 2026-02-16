@@ -1,4 +1,4 @@
-# Networking Appliances (CompTIA Network+)
+# Networking Appliances
 
 Networking appliances are physical or virtual devices that control, manage, secure, or optimize network traffic.
 
