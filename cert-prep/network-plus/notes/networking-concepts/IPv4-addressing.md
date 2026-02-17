@@ -135,8 +135,11 @@ Remaining bits are host portion
 Examples:
 
 /8  = 255.0.0.0
+
 /16 = 255.255.0.0
+
 /24 = 255.255.255.0
+
 /30 = 255.255.255.252
 
 CIDR allows flexible subnet sizes instead of fixed A/B/C classes.
