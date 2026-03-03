@@ -1,7 +1,6 @@
 # OSI Model
 
 The **OSI (Open Systems Interconnection) Model** is a conceptual framework used to understand and standardize how different networking protocols interact in a network. It divides network communication into **7 layers**, from physical transmission to application-level interactions.
-
 ---
 
 ## 7 Layers of the OSI Model
