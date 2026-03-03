@@ -12,8 +12,6 @@ IPv4 (Internet Protocol version 4) is a 32-bit addressing system used to identif
 Example:
 192.168.1.10
 
----
-
 # Public vs Private IP Addresses
 
 ## Public IP Address
@@ -26,16 +24,12 @@ Example:
 Example:
 8.8.8.8 (Google DNS)
 
----
-
 ## Private IP Address
 
 - Used inside internal networks (LAN)
 - Not routable on the public internet
 - Defined by RFC1918
 - Requires NAT to access the internet
-
----
 
 # RFC1918 Private Address Ranges
 
@@ -50,8 +44,6 @@ These are commonly used in:
 - Corporate LANs
 - Cloud virtual networks
 
----
-
 # APIPA (Automatic Private IP Addressing)
 
 APIPA range:
@@ -63,8 +55,6 @@ APIPA range:
 - Used for temporary local communication only
 
 If you see 169.254.x.x → DHCP problem.
-
----
 
 # Loopback Address
 
@@ -82,8 +72,6 @@ Command:
 ping 127.0.0.1
 
 If it fails → TCP/IP stack issue.
-
----
 
 # IPv4 Address Classes (Classful Addressing)
 
@@ -119,8 +107,6 @@ Historically, IPv4 used classes based on first octet.
 Note:
 Classful addressing is mostly obsolete. Modern networks use CIDR.
 
----
-
 # CIDR (Classless Inter-Domain Routing)
 
 CIDR replaces classful addressing.
@@ -144,8 +130,6 @@ Examples:
 
 CIDR allows flexible subnet sizes instead of fixed A/B/C classes.
 
----
-
 # Subnetting
 
 Subnetting divides a network into smaller networks.
@@ -162,8 +146,6 @@ Example:
 - 192.168.1.64/26
 - 192.168.1.128/26
 - 192.168.1.192/26
-
----
 
 # VLSM (Variable Length Subnet Mask)
 
@@ -184,8 +166,6 @@ you allocate:
 - /28 for 10 hosts (14 usable)
 
 VLSM increases IP address efficiency.
-
----
 
 # Key Concepts
 
