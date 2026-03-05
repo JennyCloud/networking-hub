@@ -22,8 +22,6 @@ NFV runs these as virtual machines in a cloud or data center.
 **Example:**
 A virtual firewall running inside a cloud environment instead of a physical firewall appliance.
 
----
-
 ## 2. Virtual Private Cloud (VPC)
 
 **Definition:**  
