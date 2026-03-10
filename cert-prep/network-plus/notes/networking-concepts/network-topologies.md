@@ -2,8 +2,6 @@
 
 Network topology describes how devices are connected and how data flows between them.
 
----
-
 ## 1. Mesh Topology
 
 In a mesh topology, devices are interconnected with multiple paths between them.
