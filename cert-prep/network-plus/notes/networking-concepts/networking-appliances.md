@@ -2,8 +2,6 @@
 
 Networking appliances are physical or virtual devices that control, manage, secure, or optimize network traffic.
 
----
-
 ## 1. Router
 
 A router connects different networks together and directs traffic between them.
