@@ -2,8 +2,6 @@
 
 Networking exists to move data from one device to another reliably, efficiently, and securely.  
 
----
-
 ## 1. Encapsulation
 
 Encapsulation is the process of wrapping data with protocol information as it moves down the OSI layers.
