@@ -5,8 +5,6 @@ Protocols define the rules for communication between devices.
 
 Think of an IP address as a building address, and a port number as the apartment number.
 
----
-
 ## FTP (File Transfer Protocol)
 - **Port:** 21 (Control), 20 (Data)
 - **Protocol:** TCP
