@@ -23,8 +23,6 @@ It converts:
 
 Transceivers allow flexibility — you can change the type of connection without replacing the whole device.
 
----
-
 ## 2. Fiber Connectors
 
 Used with fiber-optic cables (light signals instead of electricity).
