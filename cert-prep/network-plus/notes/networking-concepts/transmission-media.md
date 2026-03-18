@@ -6,8 +6,6 @@ There are two main categories:
 - Wireless
 - Wired
 
----
-
 ## 1. Wireless Transmission Media
 
 Wireless uses electromagnetic waves to transmit data through the air (no physical cable).
