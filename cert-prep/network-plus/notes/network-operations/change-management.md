@@ -5,8 +5,6 @@
 Change management is a structured process used to control modifications to a network or IT system.  
 It ensures changes are planned, approved, documented, and tracked to reduce risk and prevent outages.
 
----
-
 ## Why Change Management Matters
 
 Networks are interconnected systems. A small configuration change can cause major disruptions.
