@@ -4,8 +4,6 @@ Configuration management is the process of controlling, tracking, and maintainin
 
 It ensures consistency, stability, and recoverability across routers, switches, firewalls, and servers.
 
----
-
 ## 1. Production Configuration
 
 **Production configuration** is the active configuration currently running on a device in a live environment.
