@@ -2,8 +2,6 @@
 
 Disaster recovery ensures that IT services can continue or be restored quickly after an unexpected disruption. Key concepts include recovery objectives, system reliability metrics, site strategies, and testing.
 
----
-
 ## 1. Recovery Objectives
 
 ### **RPO (Recovery Point Objective)**
