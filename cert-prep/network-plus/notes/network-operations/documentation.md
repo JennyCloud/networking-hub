@@ -2,8 +2,6 @@
 
 Proper documentation helps IT teams understand, maintain, and troubleshoot networks efficiently. In Network+, you are expected to understand different types of documentation and what they are used for.
 
----
-
 ## 1. Physical vs. Logical Diagrams
 
 ### Physical Network Diagram
