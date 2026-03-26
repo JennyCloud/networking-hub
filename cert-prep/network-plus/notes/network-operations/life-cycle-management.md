@@ -3,8 +3,6 @@
 Life-cycle management refers to how network hardware and software are handled from deployment to retirement.  
 Good life-cycle management reduces downtime, security risks, and unexpected costs.
 
----
-
 ## 1. EOL (End of Life)
 
 **Definition:**  
