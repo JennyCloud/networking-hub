@@ -2,8 +2,6 @@
 
 Network services are essential protocols and systems that enable devices to communicate, obtain configuration, and synchronize over a network. Key services include DHCP, SLAAC, DNS, NTP, PTP, and NTS.
 
----
-
 ## 1. DHCP (Dynamic Host Configuration Protocol)
 - **Purpose:** Automatically assigns IP addresses and network configuration to devices.
 - **Key Features:**
