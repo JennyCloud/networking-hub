@@ -2,8 +2,6 @@
 
 Physical installation refers to the real-world setup of networking equipment — cables, racks, power, cooling, and environmental conditions. While networking is often discussed in terms of packets and protocols, the physical layer (Layer 1) is the foundation. If the physical layer fails, everything above it fails.
 
----
-
 ## 1. Installation Implications
 
 When installing networking equipment (switches, routers, patch panels, servers), several practical factors must be considered:
