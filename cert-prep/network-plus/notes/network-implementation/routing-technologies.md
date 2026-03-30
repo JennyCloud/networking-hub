@@ -23,8 +23,6 @@ Cons:
 - Not scalable
 - Must manually update if topology changes
 
----
-
 ### Dynamic Routing
 Dynamic routing uses routing protocols to automatically exchange route information between routers.
 
