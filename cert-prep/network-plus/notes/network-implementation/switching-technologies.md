@@ -16,8 +16,6 @@ Devices in different VLANs **cannot communicate directly** without a Layer 3 dev
 - **Trunk Port**: Carries multiple VLANs between switches using VLAN tagging (802.1Q).
 - **Default VLAN**: Usually VLAN 1 (avoid using it for production traffic).
 
----
-
 ## 2. Interface Configuration
 
 Switch interfaces (ports) must be configured correctly for traffic to flow properly.
