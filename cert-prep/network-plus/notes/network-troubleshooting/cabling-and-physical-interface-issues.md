@@ -19,8 +19,6 @@ Cable problems are common sources of network connectivity problems. Key issues i
   - Transmit and receive wires are reversed.  
   - Devices may fail to communicate unless auto-MDIX is supported.
 
----
-
 ## 2. Interface Issues
 Problems with the physical network interface on devices can manifest as:
 
