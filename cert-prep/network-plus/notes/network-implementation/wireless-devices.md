@@ -2,8 +2,6 @@
 
 Wireless networking in Network+ focuses on how Wi-Fi operates, how it is secured, and how devices communicate through radio frequencies.
 
----
-
 ## 1. Frequency Options
 
 Wi-Fi operates primarily on three frequency bands:
