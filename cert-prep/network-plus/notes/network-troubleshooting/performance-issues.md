@@ -2,6 +2,8 @@
 
 Performance issues in a network can affect the speed, reliability, and overall quality of communication. Key issues include congestion, latency, packet loss, and wireless interference.
 
+---
+
 ## 1. Congestion
 - **Definition:** Occurs when the network has more traffic than it can handle efficiently.
 - **Symptoms:** Slow response times, delayed file transfers, or dropped connections.
