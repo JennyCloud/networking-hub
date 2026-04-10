@@ -2,8 +2,6 @@
 
 Network services can experience a variety of issues that impact connectivity, performance, and overall network functionality. Key categories include:
 
----
-
 ## 1. Switching Issues
 
 Switching problems usually occur at Layer 2 of the OSI model and affect local network communication.
