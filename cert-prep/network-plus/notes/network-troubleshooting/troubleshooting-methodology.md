@@ -2,6 +2,8 @@
 
 Troubleshooting network issues follows a structured approach to efficiently identify and resolve problems. The methodology typically includes the following steps:
 
+---
+
 ## 1. Identifying the Problem
 - Gather information from users or monitoring tools.
 - Determine the scope and impact of the issue.
