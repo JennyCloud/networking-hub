@@ -2,6 +2,8 @@
 
 Audits and compliance ensure that an organization's network and data handling follow regulatory standards and security best practices. Key topics include:
 
+---
+
 ### Data Locality
 - **Definition:** The physical location where data is stored and processed.
 - **Importance:** Legal and regulatory requirements may dictate that certain data (e.g., customer information) must remain within a specific country or region.
