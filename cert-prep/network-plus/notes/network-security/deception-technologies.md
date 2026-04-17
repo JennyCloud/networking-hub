@@ -10,8 +10,6 @@ Deception technologies are security mechanisms designed to:
 
 Instead of blocking attackers immediately, these systems **lure and monitor** them.
 
----
-
 ## 2. Honeypot
 
 ### Definition
