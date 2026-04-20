@@ -2,6 +2,8 @@
 
 Logical security refers to software-based protections that safeguard data, systems, and network access. Key concepts include:
 
+---
+
 ## Encryption
 - **Data in Transit**: Protects data while moving across networks (e.g., HTTPS, TLS, VPN).
 - **Data at Rest**: Protects stored data on disks, databases, or cloud storage (e.g., AES, BitLocker).
