@@ -2,6 +2,8 @@
 
 **Network segmentation** is the practice of dividing a network into smaller, isolated segments to improve security, performance, and manageability. Each segment can have its own policies, access controls, and monitoring, which helps reduce risk and contain potential breaches.
 
+---
+
 ## Key Segments
 
 ### 1. IoT (Internet of Things)
