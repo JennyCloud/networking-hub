@@ -2,6 +2,8 @@
 
 Physical security is a critical layer in network security. It protects networking equipment, servers, and other sensitive infrastructure from unauthorized access or damage. Two common methods of physical security are cameras and locks.
 
+---
+
 ## 1. Cameras
 
 Cameras are used for monitoring and deterrence.
