@@ -1,5 +1,7 @@
 # Security Features and Defense
 
+---
+
 ## Device Hardening
 Device hardening is the process of securing a device by reducing its attack surface.  
 **Methods include:**
