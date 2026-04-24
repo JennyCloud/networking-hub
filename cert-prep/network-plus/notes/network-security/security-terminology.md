@@ -1,5 +1,7 @@
 # Security Terminology
 
+---
+
 ## 1. Risk
 - **Definition:** The potential for loss or damage when a threat exploits a vulnerability.
 - **Example:** A company storing sensitive data in a cloud server without proper encryption faces the **risk** of data theft.
