@@ -1,5 +1,7 @@
 # Types of Network Attacks
 
+---
+
 ## 1. Denial of Service (DoS) & Distributed Denial of Service (DDoS)
 
 ### DoS
