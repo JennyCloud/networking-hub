@@ -2,8 +2,6 @@
 
 Access and management refer to the methods used by network administrators and users to securely connect to, configure, and manage network devices and systems. Common access methods include VPNs, SSH, GUI, API, and console access.
 
----
-
 ## 1. VPN (Virtual Private Network)
 - **Purpose:** Provides secure remote access to a private network over the internet.
 - **Key Points:**
