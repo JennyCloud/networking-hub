@@ -7,6 +7,8 @@ It helps answer:
 - Is something failing?
 - Is traffic behaving abnormally?
 
+---
+
 ## 1. SNMP (Simple Network Management Protocol)
 
 SNMP is used to monitor and manage network devices such as routers, switches, firewalls, and servers.
