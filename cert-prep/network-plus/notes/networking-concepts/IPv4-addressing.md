@@ -12,6 +12,8 @@ IPv4 (Internet Protocol version 4) is a 32-bit addressing system used to identif
 Example:
 192.168.1.10
 
+---
+
 # Public vs Private IP Addresses
 
 ## Public IP Address
