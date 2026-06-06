@@ -4,6 +4,8 @@ In networking, traffic type describes **how data is delivered from sender to rec
 
 Understanding this helps explain how networks control bandwidth, efficiency, and routing behavior.
 
+---
+
 ## 1. Unicast (One-to-One)
 
 **Definition:**  
