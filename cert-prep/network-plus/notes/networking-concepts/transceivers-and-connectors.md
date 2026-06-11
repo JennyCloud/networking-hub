@@ -1,5 +1,7 @@
 # Transceivers and Connectors
 
+---
+
 ## 1. Transceivers
 
 A **transceiver** (transmitter + receiver) is a device that both sends and receives signals over a network medium.
